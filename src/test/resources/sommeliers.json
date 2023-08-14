@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Sommelier 1",
+    "expertise": "Red wines"
+  },
+  {
+    "name": "Sommelier 2",
+    "expertise": "White wines"
+  },
+  {
+    "name": "Sommelier 3",
+    "expertise": "Sparkling wines"
+  },
+  {
+    "name": "Sommelier 4",
+    "expertise": "Italian wines"
+  },
+  {
+    "name": "Sommelier 5",
+    "expertise": "French wines"
+  },
+  {
+    "name": "Sommelier 6",
+    "expertise": "Spanish wines"
+  },
+  {
+    "name": "Sommelier 7",
+    "expertise": "California wines"
+  },
+  {
+    "name": "Sommelier 8",
+    "expertise": "New Zealand wines"
+  },
+  {
+    "name": "Sommelier 9",
+    "expertise": "Australian wines"
+  }
+]
