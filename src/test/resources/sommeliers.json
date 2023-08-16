@@ -1,38 +1,38 @@
 [
   {
-    "name": "Sommelier 1",
+    "name": "Brian Magario",
     "expertise": "Red wines"
   },
   {
-    "name": "Sommelier 2",
+    "name": "Ava Jones",
     "expertise": "White wines"
   },
   {
-    "name": "Sommelier 3",
+    "name": "Chloe Miller",
     "expertise": "Sparkling wines"
   },
   {
-    "name": "Sommelier 4",
+    "name": "Diego Fernandez",
     "expertise": "Italian wines"
   },
   {
-    "name": "Sommelier 5",
+    "name": "Elena Garcia",
     "expertise": "French wines"
   },
   {
-    "name": "Sommelier 6",
+    "name": "Fernando Lopez",
     "expertise": "Spanish wines"
   },
   {
-    "name": "Sommelier 7",
+    "name": "Gabriella Smith",
     "expertise": "California wines"
   },
   {
-    "name": "Sommelier 8",
+    "name": "Henry Williams",
     "expertise": "New Zealand wines"
   },
   {
-    "name": "Sommelier 9",
+    "name": "Isabella Taylor",
     "expertise": "Australian wines"
   }
 ]
