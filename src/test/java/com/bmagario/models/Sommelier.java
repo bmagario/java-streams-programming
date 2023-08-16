@@ -5,12 +5,22 @@ import java.util.List;
 
 public class Sommelier {
 
+
+    private String name;
+    private String expertise;
     private List<Wine> wines;
 
-    public Sommelier() {
+    public Sommelier(String name, String expertise) {
+        this.name = name;
+        this.expertise = expertise;
         wines = new ArrayList<>();
     }
-
+    public String getName() {
+        return name;
+    }
+    public String getExpertise() {
+        return this.expertise;
+    }
     public void addWine(Wine wine) {
         wines.add(wine);
     }
