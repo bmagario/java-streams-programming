@@ -6,15 +6,20 @@ import java.util.Random;
 
 public class Sommelier {
 
-
     private String name;
     private String expertise;
-    private List<Wine> wines = new ArrayList<>();
+    private int age;
+    private boolean hasWonAward;
+    private String country;
+    private List<Wine> wines;
 
-    public Sommelier(String name, String expertise) {
+    public Sommelier(String name, String expertise, int age, boolean hasWonAward, String country) {
         this.name = name;
         this.expertise = expertise;
-        wines = new ArrayList<>();
+        this.age = age;
+        this.hasWonAward = hasWonAward;
+        this.country = country;
+        this.wines = new ArrayList<>();
     }
 
     public String getName() {
@@ -23,6 +28,26 @@ public class Sommelier {
 
     public String getExpertise() {
         return this.expertise;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public boolean hasWonAward() {
+        return hasWonAward;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public List<Wine> getWines() {
+        return wines;
+    }
+
+    public void setWines(List<Wine> wines) {
+        this.wines = wines;
     }
 
     public void addWine(Wine wine) {
@@ -37,10 +62,6 @@ public class Sommelier {
                 .filter(wine -> wine.getName().equals(name))
                 .findFirst()
                 .orElse(null);
-    }
-
-    public List<Wine> getWines() {
-        return wines;
     }
 
     public void recommendWine(String food) {
