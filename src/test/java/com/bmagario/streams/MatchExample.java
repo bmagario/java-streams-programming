@@ -4,7 +4,6 @@ import com.bmagario.models.JsonMockData;
 import com.bmagario.models.Sommelier;
 import java.io.IOException;
 import java.util.List;
-import java.util.stream.Collectors;
 import org.junit.jupiter.api.Test;
 
 public class MatchExample {

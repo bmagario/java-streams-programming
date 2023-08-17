@@ -5,7 +5,6 @@ import com.bmagario.models.Sommelier;
 import com.bmagario.models.Wine;
 import java.io.IOException;
 import java.util.List;
-import java.util.stream.Collectors;
 import org.junit.jupiter.api.Test;
 
 public class ReduceExample {
