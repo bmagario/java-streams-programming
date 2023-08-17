@@ -7,16 +7,16 @@ import java.util.List;
 import java.util.stream.Collectors;
 import org.junit.jupiter.api.Test;
 
-public class LimitExample {
+public class SkipExample {
 
     @Test
-    void limit() throws IOException {
+    void skip() throws IOException {
         List<Sommelier> sommeliers = JsonMockData.getSommeliers();
 
-        List<Sommelier> limitedSommeliers = sommeliers.stream()
-                .limit(3)
+        List<Sommelier> skipSommeliers = sommeliers.stream()
+                .skip(3)
                 .collect(Collectors.toList());
 
-        limitedSommeliers.forEach(sommelier -> System.out.println(sommelier.getName()));
+        skipSommeliers.forEach(sommelier -> System.out.println(sommelier.getName()));
     }
 }
